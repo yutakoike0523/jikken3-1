@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Paper',"other"]
+
+roboflow:
+  workspace: modern-academy-for-engineering-enkza
+  project: paper-iybve
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/modern-academy-for-engineering-enkza/paper-iybve/dataset/1
